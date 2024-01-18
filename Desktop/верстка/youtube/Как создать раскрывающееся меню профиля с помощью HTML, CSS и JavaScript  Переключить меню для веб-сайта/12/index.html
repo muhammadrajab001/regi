@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/logo.png"  class="logo" alt="">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <img src="images/user.png"  class="user-pic" onclick="toggleMenu()">
+             
+          <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="images/user.png" alt="">
+                  <h2>muhammad</h2>
+                </div>
+                <hr>
+
+           <a href="" class="sub-menu-link">
+            <img src="images/profile.png" alt="">
+            <p>профиль</p>
+            <span></span>
+           </a>
+           
+           <a href="" class="sub-menu-link">
+            <img src="images/setting.png" alt="">
+            <p>Setting  & Privacy</p>
+            <span></span>
+           </a>
+           
+           <a href="" class="sub-menu-link">
+            <img src="images/help.png" alt="">
+            <p>Help $ Support</p>
+            <span></span>
+           </a>
+           
+           <a href="" class="sub-menu-link">
+            <img src="images/logout.png" alt="">
+            <p>logout</p>
+            <span></span>
+           </a>
+
+
+            </div>
+          </div>
+
+
+
+
+
+
+
+        </nav>
+    </div>
+    <script src="main.js"></script>
+    
+    <script>
+     let subMenu = document.getElementById("subMenu");
+      function toggleMenu(){
+        subMenu.classList.toggle("open-menu")
+      }
+      console.log(subMenu);
+    </script>
+</body>
+</html>
