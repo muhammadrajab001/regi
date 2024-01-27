@@ -1,0 +1,78 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   box-sizing: border-box;
+}
+body{
+   margin-top: 300px;
+}
+.container{
+   padding: 10px 20px ;
+   position: relative;
+   top: 20%;
+   left: 30%;
+}
+.container .Form{
+   margin-top: 10px;
+}
+.container .Form input {
+   padding: 10px 10px;
+   width: 40%;
+   position: relative;
+   left: -10px;
+   border-radius: 10px;
+   outline: gray;
+   border: 1px solid gray;
+}
+
+.container .Form button{
+   position: absolute;
+   top: 13%;
+   left: 13%;
+   padding: 10px 10px;
+   transform: 0.5s;
+   position: relative;
+   left: -200px;
+   border-radius: 37px 25px 25px;
+
+}
+.container .Form button:hover{
+   box-shadow: -15px -15px -15px gray;
+   outline: none;
+   transform: 0.5s;
+   cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

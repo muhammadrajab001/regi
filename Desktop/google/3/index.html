@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <html>
+  <head>
+      <title>google</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+      
+      <div class="container">
+          <div class="img_box">
+        <img src="https://avatars.mds.yandex.net/i?id=2a0000017a0493e768a0a74da7a856fd52be-4449886-images-thumbs&n=13" alt="">
+          </div>
+          <div class="Form">
+              <form>
+                  <input type="search" name="" value="" class="query">
+                  <button class="fas fa-search  " onclick="search()">Google Search</button>
+              </form>
+          </div>
+      </div>
+      
+  </body>
+</html>
+<script>
+    let query = document.querySelector('.query');
+    function search(){
+        let search = 'https://www.google.com/search?q='+query.value;
+                window.open(search);
+            }
+    
+</script>
+<script src="main.js"></script>
+</body>
+</html>
